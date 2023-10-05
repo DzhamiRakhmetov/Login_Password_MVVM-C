@@ -8,28 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		ECE64A242ACEEB3B002608EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A232ACEEB3B002608EF /* AppDelegate.swift */; };
-		ECE64A262ACEEB3B002608EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A252ACEEB3B002608EF /* SceneDelegate.swift */; };
 		ECE64A2D2ACEEB3C002608EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE64A2C2ACEEB3C002608EF /* Assets.xcassets */; };
 		ECE64A302ACEEB3C002608EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE64A2E2ACEEB3C002608EF /* LaunchScreen.storyboard */; };
 		ECE64A382ACEEB4F002608EF /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A372ACEEB4F002608EF /* Dynamic.swift */; };
-		ECE64A3A2ACEEB5D002608EF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A392ACEEB5D002608EF /* ViewModel.swift */; };
-		ECE64A3E2ACEEB92002608EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A3D2ACEEB92002608EF /* ViewController.swift */; };
+		ECE64A3A2ACEEB5D002608EF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A392ACEEB5D002608EF /* LoginViewModel.swift */; };
+		ECE64A3E2ACEEB92002608EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A3D2ACEEB92002608EF /* LoginViewController.swift */; };
 		ECE64A432ACEEBCC002608EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A422ACEEBCC002608EF /* User.swift */; };
 		ECE64A472ACEEBF2002608EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE64A462ACEEBF2002608EF /* Main.storyboard */; };
+		ECE64A4B2ACEF19A002608EF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A4A2ACEF19A002608EF /* Coordinator.swift */; };
+		ECE64A4D2ACEF23A002608EF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A4C2ACEF23A002608EF /* AppCoordinator.swift */; };
+		ECE64A502ACEF2ED002608EF /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A4F2ACEF2ED002608EF /* Storyboardable.swift */; };
+		ECE64A522ACEF5F7002608EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A512ACEF5F7002608EF /* MainViewController.swift */; };
+		ECE64A542ACEF602002608EF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A532ACEF602002608EF /* DetailViewController.swift */; };
+		ECE64A562ACEF61B002608EF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A552ACEF61B002608EF /* MainViewModel.swift */; };
+		ECE64A582ACEF624002608EF /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A572ACEF624002608EF /* DetailViewModel.swift */; };
+		ECE64A5A2ACEF63E002608EF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64A592ACEF63E002608EF /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECE64A202ACEEB3B002608EF /* Login_Password_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_Password_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE64A232ACEEB3B002608EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECE64A252ACEEB3B002608EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ECE64A2C2ACEEB3C002608EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECE64A2F2ACEEB3C002608EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECE64A312ACEEB3C002608EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE64A372ACEEB4F002608EF /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
-		ECE64A392ACEEB5D002608EF /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		ECE64A3D2ACEEB92002608EF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECE64A392ACEEB5D002608EF /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		ECE64A3D2ACEEB92002608EF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ECE64A422ACEEBCC002608EF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ECE64A462ACEEBF2002608EF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ECE64A4A2ACEF19A002608EF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		ECE64A4C2ACEF23A002608EF /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		ECE64A4F2ACEF2ED002608EF /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		ECE64A512ACEF5F7002608EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ECE64A532ACEF602002608EF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ECE64A552ACEF61B002608EF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		ECE64A572ACEF624002608EF /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		ECE64A592ACEF63E002608EF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 		ECE64A222ACEEB3B002608EF /* Login_Password_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				ECE64A482ACEF17F002608EF /* Coordinators */,
 				ECE64A412ACEEBBC002608EF /* Models */,
 				ECE64A3F2ACEEB97002608EF /* Views */,
 				ECE64A3B2ACEEB65002608EF /* ViewModels */,
@@ -74,7 +89,9 @@
 		ECE64A3B2ACEEB65002608EF /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				ECE64A392ACEEB5D002608EF /* ViewModel.swift */,
+				ECE64A392ACEEB5D002608EF /* LoginViewModel.swift */,
+				ECE64A552ACEF61B002608EF /* MainViewModel.swift */,
+				ECE64A572ACEF624002608EF /* DetailViewModel.swift */,
 				ECE64A3C2ACEEB74002608EF /* Bindings */,
 			);
 			path = ViewModels;
@@ -91,7 +108,10 @@
 		ECE64A3F2ACEEB97002608EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ECE64A3D2ACEEB92002608EF /* ViewController.swift */,
+				ECE64A3D2ACEEB92002608EF /* LoginViewController.swift */,
+				ECE64A512ACEF5F7002608EF /* MainViewController.swift */,
+				ECE64A532ACEF602002608EF /* DetailViewController.swift */,
+				ECE64A4E2ACEF2D0002608EF /* Protocols */,
 				ECE64A402ACEEBA2002608EF /* Storyboards */,
 			);
 			path = Views;
@@ -109,11 +129,36 @@
 		ECE64A412ACEEBBC002608EF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				ECE64A252ACEEB3B002608EF /* SceneDelegate.swift */,
 				ECE64A232ACEEB3B002608EF /* AppDelegate.swift */,
 				ECE64A422ACEEBCC002608EF /* User.swift */,
+				ECE64A592ACEF63E002608EF /* UserData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		ECE64A482ACEF17F002608EF /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				ECE64A4C2ACEF23A002608EF /* AppCoordinator.swift */,
+				ECE64A492ACEF18A002608EF /* Protocols */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		ECE64A492ACEF18A002608EF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ECE64A4A2ACEF19A002608EF /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ECE64A4E2ACEF2D0002608EF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ECE64A4F2ACEF2ED002608EF /* Storyboardable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,12 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE64A3E2ACEEB92002608EF /* ViewController.swift in Sources */,
-				ECE64A3A2ACEEB5D002608EF /* ViewModel.swift in Sources */,
+				ECE64A5A2ACEF63E002608EF /* UserData.swift in Sources */,
+				ECE64A3E2ACEEB92002608EF /* LoginViewController.swift in Sources */,
+				ECE64A3A2ACEEB5D002608EF /* LoginViewModel.swift in Sources */,
+				ECE64A4B2ACEF19A002608EF /* Coordinator.swift in Sources */,
 				ECE64A432ACEEBCC002608EF /* User.swift in Sources */,
+				ECE64A502ACEF2ED002608EF /* Storyboardable.swift in Sources */,
 				ECE64A382ACEEB4F002608EF /* Dynamic.swift in Sources */,
+				ECE64A522ACEF5F7002608EF /* MainViewController.swift in Sources */,
+				ECE64A582ACEF624002608EF /* DetailViewModel.swift in Sources */,
+				ECE64A542ACEF602002608EF /* DetailViewController.swift in Sources */,
 				ECE64A242ACEEB3B002608EF /* AppDelegate.swift in Sources */,
-				ECE64A262ACEEB3B002608EF /* SceneDelegate.swift in Sources */,
+				ECE64A4D2ACEF23A002608EF /* AppCoordinator.swift in Sources */,
+				ECE64A562ACEF61B002608EF /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +389,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,8 +421,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
